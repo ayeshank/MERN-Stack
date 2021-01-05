@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> | Sign Up</title>
+  <!-- CSS Files -->
+  <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
+  <!-- <link rel="stylesheet" href="css/style1.css"> -->
+</head>
+<body>
+  <!-- <h1 class="display-1 text-center py-5 text-warning font-weight-normal">NEURO FEEDBACK</h1> -->
+  <div class="container-lg" style="margin-top: 5%;border-radius: 25px;">         
+    <form  class="w-50 mx-auto border border-light rounded p-5 mt-5 shadow" style="background-image: linear-gradient(-90deg, rgb(241, 248, 247), rgb(234, 238, 240));box-shadow:10px 10px 70px rgb(36, 34, 34);">
+      <h3 class="text-center mb-4">Sign Up</h3>
+      <div class="form-group">
+        <label for="name"></label>
+        <input type="text" class="form-control" placeholder="Name" id="name" value="" aria-describedby="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="age"></label>
+        <input type="email" class="form-control" placeholder="Email Address" id="email" value="" aria-describedby="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password"></label>
+        <input type="password" class="form-control" placeholder="Password" id="password" value="" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="password_c" style="color: black;"></label>
+        <input type="password" class="form-control" placeholder="Confirm Password" id="password_c" name="password_c">
+      </div>
+      <div class="form-group">
+        <label for="age"></label>
+        <input type="number" class="form-control" placeholder="Age" id="age" aria-describedby="age" value="" name="age" required>
+      </div>
+      <button type="submit" name="register" value="register" class="btn btn-dark mb-2 d-block" style="padding:13px;width: 100%;border: none;background-image: linear-gradient(-90deg, rgb(75, 231, 208), rgb(74, 166, 228));color: black;"><b>Sign Up</b>    </button>
+      <button type="submit" onClick="parent.location='login.html'" name="register" value="register" class="btn btn-dark mb-2 d-block" style="padding:13px;width: 100%;border: none;background-image: linear-gradient(-90deg, rgb(75, 231, 208), rgb(74, 166, 228));color: black;"><b>Login</b>    </button>
+    </form>
+  </div>
+</body>
+</html>
